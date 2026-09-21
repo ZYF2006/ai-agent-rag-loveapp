@@ -1,0 +1,30 @@
+{
+  "vendor": "Amazon",
+  "product": "Corretto",
+  "jdk_version_major": 21,
+  "jdk_version": "21.0.11",
+  "suggested_sdk_name": "corretto-21",
+  "shared_index_aliases": [
+    "corretto-21.0.11",
+    "corretto-21",
+    "21.0.11",
+    "21"
+  ],
+  "packages": [
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "version": "21.0.11",
+      "url": "https://corretto.aws/downloads/resources/21.0.11.10.1/amazon-corretto-21.0.11.10.1-windows-x64-jdk.zip",
+      "package_type": "zip",
+      "unpack_prefix_filter": "jdk21.0.11_10",
+      "package_root_prefix": "jdk21.0.11_10",
+      "package_to_java_home_prefix": "",
+      "archive_file_name": "amazon-corretto-21.0.11.10.1-windows-x64-jdk.zip",
+      "install_folder_name": "corretto-21.0.11",
+      "archive_size": 202272579,
+      "unpacked_size": 343740447,
+      "sha256": "5d63fdb5a19393081919afc0daa4ce82a7fadcced569981a995529caed28fb14"
+    }
+  ]
+}
